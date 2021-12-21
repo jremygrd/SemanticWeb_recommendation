@@ -1,13 +1,8 @@
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
-import dash_table
+from dash import dcc
+from dash import html
+from dash import dash_table
 import pandas as pd
-import numpy as np
-from dash.dependencies import Input, Output
-import plotly.express as px
-import plotly.graph_objects as go
-import pickle
 
 corrMatrix = pd.read_pickle(r"corrMatrix.pkl")
 
